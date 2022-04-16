@@ -16,4 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Deep sleep info -->
     <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">false</bool>
 </resources>
