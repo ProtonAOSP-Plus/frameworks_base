@@ -5562,6 +5562,13 @@ public final class Settings {
         public static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
         /**
+         * Double tap on lockscreen to sleep
+         * @hide
+         */
+        public static final String DOUBLE_TAP_SLEEP_LOCKSCREEN =
+                "double_tap_sleep_lockscreen";
+
+        /**
          * These are all public system settings
          *
          * @hide
@@ -5671,6 +5678,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(SHOW_BATTERY_PERCENT);
             PRIVATE_SETTINGS.add(DISPLAY_COLOR_MODE);
             PRIVATE_SETTINGS.add(DISPLAY_COLOR_MODE_VENDOR_HINT);
+            PRIVATE_SETTINGS.add(DOUBLE_TAP_SLEEP_LOCKSCREEN);
         }
 
         /**
